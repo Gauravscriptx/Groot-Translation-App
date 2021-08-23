@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+:root {
+  --primaryColor-bg: #f4a460;
+  --primaryColor-text: #374151;
+}
+
+body {
+  font-family: 'Otomanopee One', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+#main-container {
+  height: 100%;
+  /* max-width: 600px; */
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+#container {
+  background-color: var(--primaryColor-bg);
+  padding: 1rem;
+  flex: 0 1 auto;
+}
+
+#container-center {
+  flex: 1 1 auto;
+  padding: 1rem;
+}
+
+h1 {
+  color: var(--primaryColor-text);
+  text-align: center;
+}
+
+#input {
+  width: 40%;
+  padding: 1rem;
+  font-family: 'Otomanopee One', sans-serif;
+  display: block;
+  height: 12vh;
+  margin-top: 1.3rem !important;
+  color: var(--primaryColor-text);
+}
+
+#btn-translate {
+  padding: 1rem 2rem;
+  margin-top: 0.8rem !important;
+  font-family: 'Otomanopee One', sans-serif;
+
+  display: block;
+  border: 0px;
+  background-color: var(--primaryColor-bg);
+  border-radius: 5px;
+  color: var(--primaryColor-text);
+}
+
+#info {
+  margin-top: 2rem !important;
+  display: block;
+  color: var(--primaryColor-text);
+  padding-bottom: 0.5rem;
+  width: 89vw;
+
+  text-align: left;
+}
+#clipart {
+  width: 344px;
+  height: 500px;
+}
+
+#outputText {
+  width: 40%;
+  height: 10vh;
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 0.2rem;
+  color: var(--primaryColor-text);
+}
+
+#container h3 {
+  text-align: center;
+  color: var(--primaryColor-text);
+}
+
+#container p {
+  text-align: center;
+  color: var(--primaryColor-text);
+}
+@media screen and (max-width: 580px) {
+  #clipart {
+    width: 130px;
+    height: 350px;
+  }
+}
